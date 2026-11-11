@@ -1,0 +1,13 @@
+.DS_Store
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rcheck/
+*.tar.gz
+*.zip
+*.log
+simulation-output/
+examples/output/
+examples/results/
+.library/

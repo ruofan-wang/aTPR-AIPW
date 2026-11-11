@@ -1,0 +1,24 @@
+Package: aTPRAIPW
+Title: Adjusted True Positive Rates with Partially Observed Outcomes
+Version: 0.1.0
+Authors@R: person("Ruofan", "Wang", email = "ruofanwa@upenn.edu",
+    role = c("aut", "cre"))
+Description: Estimates risk-standardized true positive rate differences
+    between two subgroups when gold-standard outcomes are available for
+    known noncases and a selectively validated subset of candidates.
+    Extends 'fairRisk' with covariate-based and phenotype-assisted augmented
+    inverse probability weighting and stacked influence-function standard
+    errors. Uses 'fairRisk' for ordinary logistic calibration, linear and
+    quadratic logit density-ratio models, and adjusted true positive rate
+    aggregation. Includes complete-case, contaminated-label, and
+    full-data comparisons. Synthetic simulation examples are provided in
+    the source repository separately from the estimation functions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: stats, fairRisk (>= 1.1.1.1), rlang
+Remotes: sarahhegarty/fairRisk@e8e0f8b6bc58f29fec68acb070064940ac88d13c
+Suggests: testthat (>= 3.0.0), numDeriv
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3

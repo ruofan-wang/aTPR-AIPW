@@ -1,0 +1,12 @@
+^aTPR-AIPW[.]Rproj$
+^[.]Rproj[.]user$
+^[.]git$
+^[.]github$
+^[.]gitignore$
+^examples$
+^PROVENANCE[.]md$
+^DEVELOPMENT[.]md$
+^LICENSE[.]md$
+^.*[.]Rcheck$
+^.*[.]tar[.]gz$
+^simulation-output$
